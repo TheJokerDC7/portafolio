@@ -1,0 +1,188 @@
+.texto {
+    margin: 0 auto !important;
+    text-align: center !important;
+    align-content: center !important;
+    padding-top: 50px !important;
+}
+
+
+.contenido {
+    margin: 0 auto !important;
+    text-align: center !important;
+    align-content: center !important;
+    padding-top: 51px !important;
+}
+
+.avatar {
+    margin: 0 auto !important;
+    text-align: center !important;
+    align-content: center !important;
+}
+
+.contenido1 {
+    background-color: #7E3C79;
+    height: 550px;
+    text-align: center !important;
+    align-content: center !important;
+    color: white;
+    z-index: 1;
+}
+
+.presentacion {
+    padding-top: 150px !important;
+}
+
+.presentacion2 {
+    margin: 0 auto;
+    padding-top: 30px !important;
+    width: 800px;
+    text-align: center !important;
+    align-content: center !important;
+    color: white;
+}
+
+.skills {
+    margin: 0 auto;
+    max-width: 1400px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: -120px;
+    padding: 20px; /* Agregado para mejorar la apariencia en dispositivos pequeños */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espaciado entre las columnas */
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/* Estilos para las columnas individuales */
+.wrapper > div {
+    text-align: center;
+}
+
+.titulo-skills {
+    margin-top: 35px;
+}
+
+.sub {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sub2 {
+    margin-top: 35px;
+}
+
+.mistrabajos {
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.galeria1 {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.galeria2 {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.galeria {
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 56px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.footer {
+    margin-top: 25px;
+    background-color: #7E3C79 !important;
+    text-align: center !important;
+    align-content: center !important;
+    color: white;
+}
+
+
+button {
+    background-color: #934791 !important;
+}
+
+button.button.block.text-white.bg-blue-700.hover\:bg-blue-800.focus\:ring-4.focus\:outline-none.focus\:ring-blue-300.font-medium.rounded-lg.text-sm.px-5.py-2\.5.text-center.dark\:bg-blue-600.dark\:hover\:bg-blue-700.dark\:focus\:ring-blue-800 {
+    width: 150px!important;
+}
+
+button:hover {
+    background-color: #d268cc !important;
+    border-color: #d268cc !important;
+}
+
+/* Estilo predeterminado para el div presentacion2 */
+.presentacion2 {
+    max-width: 100%; /* Ancho máximo predeterminado */
+    margin: 0 auto; /* Centra el div horizontalmente */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para pantallas más pequeñas (celulares y tablets en modo vertical) */
+@media (max-width: 768px) {
+    .presentacion2 {
+        max-width: 80%; /* Reduce el ancho del div para pantallas más pequeñas */
+        padding: 10px; /* Ajusta el espaciado interno para pantallas más pequeñas */
+        
+    }
+
+    #principal{
+        width: 300px!important;
+        height: auto!important;
+    }
+
+    #redessociales{
+        margin-top: 40px!important;
+        width: 80!important;
+        margin-left: 160px!important;
+    }
+
+    .presentacion {
+        padding-top: 20px !important;
+    }
+    
+}
+
+/* Media queries para hacerlo responsive */
+@media (max-width: 1200px) {
+    .skills {
+        max-width: 100%;
+    }
+
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+figcaption{
+    background-color: #7e3c79!important;
+}
+
+.footer{
+    background-color: #111827!important;
+}
